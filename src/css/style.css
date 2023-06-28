@@ -212,10 +212,10 @@ footer{
     background-color: #096D93;
     color: white;
     font-family: var(--title_font);
-    text-align: center;
-}
-footer p{
-    padding: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 hr{
     display: none;
