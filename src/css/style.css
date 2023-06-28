@@ -89,7 +89,7 @@ main{
 .cards article{
     height: 150px;
     width: 48%;
-    background-color: #fafafa;
+    background-color: white;
     box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
     border-radius: 10px;
     display: flex;
