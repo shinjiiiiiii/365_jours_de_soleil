@@ -147,9 +147,8 @@ main aside{
 }
 .cards article div span::after{
     content: "°";
-    position: relative;
-    top: -2px;
-    right: -2px;
+    position: absolute;
+    transform: translate(-2px,-2px,0px,0px);
     font-size: 0.8em;
 }
 #span_red{
