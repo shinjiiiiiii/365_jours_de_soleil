@@ -131,14 +131,14 @@ main aside{
     filter: brightness(0) saturate(100%) invert(57%) sepia(45%) saturate(459%) hue-rotate(144deg) brightness(94%) contrast(87%);
 }
 .cards article h3,.cards article p{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .cards article img{
-    width: 65px;
+    width: 80px;
     margin: auto;
 }
 .cards article div span{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .cards article div span::after{
     content: "°";
@@ -149,4 +149,37 @@ main aside{
 }
 #span_blue{
     color: #4FA3B6;
+}
+
+.gal_image_form > div{
+    background-color: aliceblue;
+    width: 49.5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.gal_image_form > div div{
+    background-color: aqua;
+    height: 80px;
+    width: 48%;
+}
+.gal_image_form > div :nth-child(1){
+    background: url(assets/img/printemps.jpg);
+    background-size: cover;
+}
+.gal_image_form > div :nth-child(2){
+    background: url(assets/img/route_ete.jpg);
+    background-size: cover;
+}
+.gal_image_form > div :nth-child(3){
+    background: url(assets/img/nuageux.jpg);
+    background-size: cover;
+}
+.gal_image_form > div :nth-child(4){
+    background: url(assets/img/Climadiag.jpg);
+    background-size: cover;
+}
+.gal_image_form > div :nth-child(5){
+    background: url(assets/img/route_neige.jpg);
+    background-size: cover;
 }
