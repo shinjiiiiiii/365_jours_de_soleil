@@ -288,15 +288,34 @@ header nav strong{
         color: #30a8f0;
         padding: 10px;
     }
-    table thead{
-        font-size: 1.4em;
+    table thead, th{
+        font-size: 1.2em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    table td{
+        padding-left: 10px;
+        padding-right: 10px;
+
     }
 
     .max_deg{
         color: #ff0202;
     }
+    .max_deg::after{
+        content: "°";
+        position: absolute;
+        transform: translate(-2px,-2px,0px,0px);
+        font-size: 0.8em;
+    }
     .min_deg{
         color: #30a8f0;
+    }
+    .min_deg{
+        content: "°";
+        position: absolute;
+        transform: translate(-2px,-2px,0px,0px);
+        font-size: 0.8em;
     }
     .tab_img_responsive img{
         width: 70%;
