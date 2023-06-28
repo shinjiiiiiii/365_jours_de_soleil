@@ -30,7 +30,7 @@ header div > a{
 }
 h1{
     font-family: var(--title_font);
-    color: white;
+    color: #fafafa;
     text-align: center;
     font-size: 2em;
 }
@@ -88,7 +88,7 @@ main{
 .cards article{
     height: 150px;
     width: 48%;
-    background-color: white;
+    background-color: #fafafa;
     box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
     border-radius: 10px;
     display: flex;
@@ -96,7 +96,7 @@ main{
     text-align: center;
 }
 main aside{
-    background-color: white;
+    background-color: #fafafa;
     color: black;
     font-size: 1em;
     width: 25%;
@@ -151,10 +151,10 @@ main aside{
     font-size: 0.8em;
 }
 #span_red{
-    color: red;
+    color: #ff0202;
 }
 #span_blue{
-    color: #4FA3B6;
+    color: #30a8f0;
 }
 .gal_image_form{
     display: flex;
@@ -180,7 +180,7 @@ main form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: #fafafa;
     width: 47%;
     box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
     border-radius: 10px;
@@ -202,7 +202,7 @@ main form p, main form h3{
     width: 90%;
     border: none;
     background-color: #4FA3B6;
-    color: white;
+    color: #fafafa;
     padding: 5px 10px;
     text-transform: uppercase;
     border-radius: 5px;
@@ -210,7 +210,7 @@ main form p, main form h3{
 }
 footer{
     background-color: #096D93;
-    color: white;
+    color: #fafafa;
     font-family: var(--title_font);
     height: 60px;
     display: flex;
@@ -272,7 +272,7 @@ header nav strong{
     }
     table{
         display: block;
-        background-color: aliceblue;
+        background-color: #fafafa;
         width: 25%;
         height: 200px;
         font-family: var(--text-font);
@@ -284,7 +284,7 @@ header nav strong{
     }
     table caption{
         width: 100%;
-        color: #096D93;
+        color: #30a8f0;
         padding: 10px;
     }
     table thead{
@@ -292,10 +292,10 @@ header nav strong{
     }
 
     .max_deg{
-        color: red;
+        color: #ff0202;
     }
     .min_deg{
-        color: #4FA3B6;
+        color: #30a8f0;
     }
     .tab_img_responsive img{
         width: 70%;
@@ -326,7 +326,7 @@ header nav strong{
     }
     header nav strong{
         display: block;
-        color: white;
+        color: #fafafa;
         text-transform: uppercase;
         font-size: 1em;
         font-family: var(--text-font);
