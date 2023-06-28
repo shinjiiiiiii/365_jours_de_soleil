@@ -280,6 +280,7 @@ header nav strong{
         flex-direction: column;
         align-items: center;
         box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
+        border-radius: 10px;
     }
     table caption{
         width: 100%;
@@ -300,6 +301,7 @@ header nav strong{
         width: 70%;
         object-fit: cover;
         box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
+        border-radius: 10px;
     }
     main form{
         width: 25%;
