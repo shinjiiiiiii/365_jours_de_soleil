@@ -50,6 +50,7 @@ header nav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 1s ease-out 100ms
 }
 header nav ul li:hover{
     background-color: rgba(79, 163,182, 0.5);
@@ -122,6 +123,7 @@ main aside{
    gap: 5px;
    padding: 7px 2px;
    border-radius: 10px;
+   transition: background-color 1s ease-out 100ms
 }
 .prevision_cards nav ul li:hover{
     background-color: rgba(79, 163, 182,0.5);
