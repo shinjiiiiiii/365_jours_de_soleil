@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Quicksand:wght@700&display=swap');
 
+body{
+    background-color: #4FA3B6;
+    font-size: 90%;
+}
 :root{
-    --title_font: 'Nosifer', cursive;
+    --title_font: 'Nosifer', bold;
     --text-font: 'Quicksand', sans-serif;;
 }
 
@@ -10,6 +14,7 @@ header{
     width: 100%;
     background-color: #096D93;
     position: relative;
+    margin-bottom: 5vh;
 }
 header > div{
     height: 70px;
@@ -17,7 +22,7 @@ header > div{
     align-items: center;
     justify-content: center;
 }
-header div > img{
+header div > a{
     position: absolute;
     width: 70px;
     top: 20%;
@@ -27,7 +32,7 @@ h1{
     font-family: var(--title_font);
     color: white;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 2em;
 }
 header nav{
     width: 100%;
@@ -52,4 +57,96 @@ header nav ul li:hover{
 header nav ul li img{
     width: 20px;
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(73deg) brightness(103%) contrast(103%);
+}
+
+
+main{
+    width: 85%;
+    margin: auto;
+}
+.prevision_cards{
+    font-family: var(--text-font);
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 10vh;
+}
+#prevision{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+#prevision::after{
+    content: ' 8 jours';
+}
+.cards{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.cards article{
+    height: 150px;
+    width: 48%;
+    background-color: white;
+    box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main aside{
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    width: 25%;
+    height: 679px;
+    float: right;
+    top: 0;
+    box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.prevision_cards nav{
+    height: 100%;
+}
+.prevision_cards nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px;
+}
+.prevision_cards nav ul li{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding: 7px 2px;
+   border-radius: 10px;
+}
+.prevision_cards nav ul li:hover{
+    background-color: rgba(79, 163, 182,0.5);
+}
+.prevision_cards nav ul li img{
+    width: 17px;
+    filter: brightness(0) saturate(100%) invert(57%) sepia(45%) saturate(459%) hue-rotate(144deg) brightness(94%) contrast(87%);
+}
+.cards article h3,.cards article p{
+    font-size: 0.8em;
+}
+.cards article img{
+    width: 65px;
+    margin: auto;
+}
+.cards article div span{
+    font-size: 0.8em;
+}
+.cards article div span::after{
+    content: "°";
+    font-size: 0.8em;
+}
+#span_red{
+    color: red;
+}
+#span_blue{
+    color: #4FA3B6;
 }
