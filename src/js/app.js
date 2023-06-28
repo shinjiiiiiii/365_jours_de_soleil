@@ -62,6 +62,20 @@ const data = {
             deg_max: "4",
             deg_min: "-3"
         },
+        {
+            title: "mar",
+            day: "28",
+            img: "assets/img/sleet.png",
+            deg_max: "7",
+            deg_min: "0"
+        },
+        {
+            title: "mer",
+            day: "29",
+            img: "assets/img/sunny.png",
+            deg_max: "4",
+            deg_min: "-2"
+        },
         
 
     ]
