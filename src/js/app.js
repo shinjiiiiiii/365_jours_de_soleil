@@ -1,6 +1,6 @@
 import '../css/style.css';
 import '../css/reset.css';
-
+"use strict"
 
 const cards = document.getElementById('cards')
 
