@@ -298,7 +298,9 @@ header nav strong{
         padding-right: 10px;
 
     }
-
+    tbody,tfoot{
+        margin-left: -60px;
+    }
     .max_deg{
         color: #ff0202;
     }
