@@ -1,1 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Quicksand:wght@400;700&display=swap');
+
+:root{
+    --title_font: 'Nosifer', cursive;
+    --text-font: 'Quicksand', sans-serif;;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #096D93;
+    position: relative;
+}
+header > div{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div > img{
+    position: absolute;
+    width: 70px;
+    top: 20%;
+    left: 10px;
+}
+h1{
+    font-family: var(--title_font);
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+}
+header nav{
+    width: 100%;
+    height: 30px;
+    background-color: #0e4259;
+}
+header ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul li:hover{
+    background-color: rgba(79, 163,182, 0.5);
+}
+header nav ul li img{
+    width: 20px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(73deg) brightness(103%) contrast(103%);
+}
