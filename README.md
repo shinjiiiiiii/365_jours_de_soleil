@@ -7,3 +7,4 @@ images pas trop responsive dans .gal_image_form
 
 icon telecharger vu avec jean sebatien 
 
+tableau catastrophique j'ai pas reussi pour les border 

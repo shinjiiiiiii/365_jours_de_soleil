@@ -93,7 +93,7 @@ function genArticle(articles){
         <p>${article.day}</p>
         <img src="${article.img}" alt="image meteo"> 
         <div>
-          <span id="span_red">${article.deg_max}</span>|<span id="span_blue">${article.deg_min}</span>
+          <span id="span_red">${article.deg_max}</span> | <span id="span_blue">${article.deg_min}</span>
         </div>
         
       </article>

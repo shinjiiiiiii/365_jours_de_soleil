@@ -191,14 +191,14 @@ main form p, main form h3{
     text-align: center;
     margin-bottom: 15px;
 }
-main form input{
+#input_mail{
     width: 90%;
     border: none;
     border-radius: 5px;
     box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
     padding: 5px 10px;
 }
-main form button{
+#input_sub{
     width: 90%;
     border: none;
     background-color: #4FA3B6;
@@ -226,7 +226,9 @@ table{
 .tab_img_responsive{
     display: none;
 }
-
+header nav strong{
+    display: none;
+}
 @media screen and (min-width: 1200px) {
     body {
       font-size: 100%;
@@ -277,6 +279,7 @@ table{
         display: flex;
         flex-direction: column;
         align-items: center;
+        box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
     }
     table caption{
         width: 100%;
@@ -286,7 +289,7 @@ table{
     table thead{
         font-size: 1.4em;
     }
-    
+
     .max_deg{
         color: red;
     }
@@ -295,5 +298,42 @@ table{
     }
     .tab_img_responsive img{
         width: 70%;
+        object-fit: cover;
+        box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
     }
-  }
+    main form{
+        width: 25%;
+    }
+    .gal_image_form > div{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .gal_image_form > div img{
+        object-fit: cover;
+        height: 150px;
+        width: 30%;
+        box-shadow: 0 2px 21px 0px rgb(14 66 89 /45%);
+    }
+    main form p{
+        margin-bottom: 40px;
+    }
+    #input_sub, #input_mail{
+        padding: 15px;
+    }
+    header nav strong{
+        display: block;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+    header nav ul li a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    #prevision::after{
+        content: ' 10 jours';
+    }
+}
